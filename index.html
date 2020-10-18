@@ -17,11 +17,7 @@
 
     <script src="lib/telemetry.js"></script>
     <script>
-      MozillaResearch.telemetry.start({
-        analytics: true,
-        errorLogging: true,
-        performance: true
-      });
+
       MozillaResearch.telemetry.performance.mark('LoaderParsingStart');
     </script>
 
@@ -52,7 +48,7 @@
         }
     </script>
   </head>
-  <body>
+  <body style="background-color:black;">
     <div id="loader">
       <div id="loading" class="loading">Turning on...</div>
       <div id="progress" class="progress"></div>
@@ -61,6 +57,7 @@
     <div id="game">
       <div id="gameContainer"></div>
     </div>
+   
 
  
 
